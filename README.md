@@ -40,7 +40,7 @@ title: 'First category'
 description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.'
 date: 2017-11-12 17:46:41 -0300
 categories: start blog
-by: 'Gustavo Quinalha'
+by: 'Jay Greentree'
 icon: 'credit-card'
 questions:
   - question: 'Question 1'
