@@ -5,7 +5,7 @@
       <a href="{{ site.baseurl }}/"><span>JayGreentree |</span> {{ site.title }}</a>
     </div>
 
-    <a href="https://help.jaygreentree.org/" data-aos="fade-left" data-aos-delay="" data-aos-offset="0">
+    <!-- a href="https://help.jaygreentree.org/" data-aos="fade-left" data-aos-delay="" data-aos-offset="0">
       <div class="container align-items-baseline back-to-site">
         <div class="">
           <span class="feather-icon icon-external-link"></span>
@@ -14,9 +14,10 @@
           Back to website
         </div>
       </div>
-    </a>
+    </a -->
     <nav class="masthead-nav">
-      {% for page in site.pages | sort_by: "order" %}
+      {% assign sorted_pages = site.pages | sort:"order" %}
+      {% for page in site.pages %}
       {% if page.title %}
       <a href="https://help.jaygreentree.org/{{ page.url }}">
         {{ page.title }} |
