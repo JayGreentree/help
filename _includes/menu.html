@@ -5,7 +5,7 @@
       <a href="{{ site.baseurl }}/"><span>JayGreentree |</span> {{ site.title }}</a>
     </div>
 
-    <a href="https://github.com/jaygreentree/jekyll-help-center-theme" data-aos="fade-left" data-aos-delay="" data-aos-offset="0">
+    <a href="https://help.jaygreentree.org/" data-aos="fade-left" data-aos-delay="" data-aos-offset="0">
       <div class="container align-items-baseline back-to-site">
         <div class="">
           <span class="feather-icon icon-external-link"></span>
@@ -18,7 +18,7 @@
     <nav class="masthead-nav">
       {% for page in site.pages %}
       {% if page.title %}
-      <a href="{{ page.url | prepend: site.baseurl }}">
+      <a href="https://help.jaygreentree.org/{{ page.url }}">
         {{ page.title }}
       </a>
       {% endif %}
