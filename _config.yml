@@ -9,9 +9,9 @@
 title: "Help Center"
 email: jay@jaygreentree.com
 description: "Simple and flexible Jekyll theme for help center."
-baseurl: "/jekyll-help-center-theme"
-url: "http://quinalha.me"
-twitter_username: "jaygreentree"
+baseurl: "/"
+url: "http://jaygreentree.com"
+twitter_username: "JayTheITGuy1983"
 github_username:  "jaygreentree"
 color_theme:  "#0081ff"
 color_text:  "#fff"
