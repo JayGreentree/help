@@ -16,7 +16,7 @@
       </div>
     </a>
     <nav class="masthead-nav">
-      {% for page in site.pages %}
+      {% for page in site.pages | sort_by: "order" %}
       {% if page.title %}
       <a href="https://help.jaygreentree.org/{{ page.url }}">
         {{ page.title }} |
