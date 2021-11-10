@@ -3,7 +3,7 @@
 
 $colortheme: {{ site.color_theme }};
 $colortext: {{ site.color_text }};
-$baseurl: '{{ site.baseurl }}';
+$baseurl: '';
 
 @import "base";
 @import "menu";
