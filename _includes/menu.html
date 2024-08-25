@@ -6,6 +6,7 @@
     </div>
 
  {%- comment -%}
+  {%- endcomment -%}
     <a href="https://help.jaygreentree.org/" data-aos="fade-left" data-aos-delay="" data-aos-offset="0">
       <div class="container align-items-baseline back-to-site">
         <div class="">
@@ -16,13 +17,14 @@
         </div>
       </div>
     </a>
+    {%- comment -%}
     {%- endcomment -%}
 
     <nav class="masthead-nav">
       {% assign sorted_pages = site.pages | sort:"order" %}
       {% for page in sorted_pages %}
       {% if page.title %}
-      <a href="/{{ page.url }}">
+      <a href="{{ page.url }}">
         {{ page.title }} |
       </a>
       {% endif %}
