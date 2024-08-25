@@ -13,7 +13,9 @@ baseurl: "/"
 url: "https://help.jaygreentree.org/"
 twitter_username: "JayTheITGuy1983"
 github_username:  "jaygreentree"
-color_theme:  "#a31a1a"
+
+# color_theme:  "#a31a1a"
+color_theme: "#013852"
 color_text:  "#fff"
 language:  "en"
 
